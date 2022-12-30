@@ -1,18 +1,19 @@
-p{
+.dado{
     width: 400px;
     height: 400px;
     background-color: black;
+    border-radius: 25px;
     color: white;
     font-size: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 600px;
-    border-radius: 25px;
     margin-bottom: 20px;
 }
+
 button{
-    margin-top: 0px;
+    margin-top: 80px;
     margin-left: 750px;
     background-color: rgb(4, 173, 4);
     color: white;
