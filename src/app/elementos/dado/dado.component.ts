@@ -11,5 +11,11 @@ export class DadoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  numaleatorio=1
+  aleatorio(){
+    this.numaleatorio=Math.round(Math.random()*10);
+    if(this.numaleatorio>6 || this.numaleatorio==0){
+      this.aleatorio();
+    }
+  }
 }
